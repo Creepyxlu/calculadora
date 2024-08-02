@@ -83,7 +83,14 @@ let edad = Number(prompt("Escribe tu edad"));
 
 if (isNaN(edad)) {
     alert("Te dije que pongas tu edad, con numeritos ctm. Por favor recarga la página o aprieta F5");
-}else{
+}else if((edad) == 0){
+    alert("Por qué no escribiste nada?");
+    alert("POR QUE no escribiste nada?");
+    alert("POR QUE NO ESCRIBISTE?");
+}else if(edad >= 120){
+    alert("Dale hacete el pajero " + edad + " horas en lol tenes seguro")
+}
+else{
     alert( "En tu próximo cumpleaños vas a cumplir " + (edad + 1) );
 }
 
